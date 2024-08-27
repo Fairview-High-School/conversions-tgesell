@@ -34,6 +34,25 @@ public class Conversions
         if (selection == 2)
         {
             //add the code to ask the user to enter Fahrenheit and then convert to Celsius
+            System.out.println("Enter Fahrenheit: ");
+            double fahrenheit = keyboard.nextDouble();
+            keyboard.nextLine();
+            double celsius = (fahrenheit - 32) * (5.0 / 9.0);
+            System.out.println(fahrenheit + " degrees fahrenheit is " + celsius + " degrees celsius");
+        }
+        if (selection == 3)
+        {
+            //add the code to ask the user to enter Fahrenheit and then convert to Celsius
+            System.out.println("Enter Feet: ");
+            double feet = keyboard.nextDouble();
+            keyboard.nextLine();
+            double meters = feet * .3048;
+            System.out.println(feet + " feet is " + meters + " meters");
+        }
+        if (selection == 4)
+        {
+
+            
         }
         //add more if statements here.
     }
